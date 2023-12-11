@@ -1,0 +1,667 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1702192517664786, "dur":2542, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192517667347, "dur":230, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1702192517667702, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1702192517667731, "dur":1133, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1702192517668973, "dur":1334, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192517670307, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518517324, "dur":297, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518517621, "dur":265, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518517886, "dur":27, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518517913, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518517948, "dur":24, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518517972, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518009, "dur":28, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518038, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518070, "dur":24, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518094, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518126, "dur":25, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518151, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518187, "dur":26, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518213, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518245, "dur":24, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518269, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518307, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518350, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518518432, "dur":5042, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702192517668922, "dur":1412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517670346, "dur":11252, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517681633, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702192517681645, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517682089, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702192517682095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517687688, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702192517691040, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702192517691364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517691611, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702192517698087, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1702192517698426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517698446, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1702192517704431, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517704652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517706201, "dur":8836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517715212, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517715392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517715410, "dur":17510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517733067, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517733235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517733251, "dur":12795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517746214, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517746505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517746524, "dur":12253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517759079, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517759442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517759460, "dur":23208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517782810, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517783058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517783072, "dur":10192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517793406, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517793574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517793595, "dur":9418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517803206, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517803536, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517803557, "dur":8121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517811847, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517812300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517812321, "dur":10987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517823484, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517824123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517824158, "dur":12115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517836446, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517836789, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517836812, "dur":10438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517847614, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517847825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517847846, "dur":11392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517859478, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517859701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517859720, "dur":18666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517878562, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517878733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517878752, "dur":12736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517891675, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517891879, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517891908, "dur":32333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702192517924395, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702192517924648, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702192517924666, "dur":592406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702192518517206, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1702192518517209, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517669029, "dur":1327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517670357, "dur":11273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517681632, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1702192517681885, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517684372, "dur":6808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1702192517691294, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1702192517691591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517691819, "dur":7191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1702192517699330, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1702192517699579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517699594, "dur":15221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1702192517714986, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517715391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517715410, "dur":18987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517734569, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517734907, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517734938, "dur":18111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517753267, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517753746, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517753768, "dur":22033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517776051, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517776205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517776222, "dur":10245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517786614, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517786881, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517786900, "dur":9136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517796164, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517796450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517796469, "dur":12807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517809458, "dur":1527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517810995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517811011, "dur":16788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517827947, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517828327, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517828348, "dur":10247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517838762, "dur":1549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517840324, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517840345, "dur":11860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517852360, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517852535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517852555, "dur":26104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517878832, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517879234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517879252, "dur":19467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517898960, "dur":2163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517901132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517901152, "dur":14658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702192517916008, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702192517916192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517916266, "dur":14356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702192517930823, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702192517931040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517931056, "dur":37238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702192517968518, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":2, "ts":1702192517968755, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517968785, "dur":17515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":2, "ts":1702192517986526, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702192517986741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192517986767, "dur":25223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702192518012222, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level8.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518012507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192518012527, "dur":37231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level8.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518049982, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1702192518050128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192518050142, "dur":19883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1702192518070165, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1702192518079642, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192518079665, "dur":49965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1702192518129752, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level19.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518129864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192518129874, "dur":8801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level19.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518138798, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level16.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518138888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192518138895, "dur":39354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level16.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518178396, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level11.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518178545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192518178558, "dur":10666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level11.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702192518189404, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1702192518189605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702192518189627, "dur":33005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1702192518222799, "dur":294544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517669132, "dur":1249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517670382, "dur":11234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517681631, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1702192517681900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517685060, "dur":6357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1702192517691646, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1702192517691900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517691980, "dur":8923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1702192517701090, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517701374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517701500, "dur":45731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517747396, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517747570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517747590, "dur":14801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517762554, "dur":9334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517771899, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517771914, "dur":10803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517782871, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517783017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517783034, "dur":9636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517792838, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517793003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517793019, "dur":10152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517803346, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517803629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517803648, "dur":9986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517813797, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517814127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517814151, "dur":11767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517826100, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517826413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517826433, "dur":8862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517835464, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517835807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517835830, "dur":10364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517846363, "dur":2047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517848423, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517848443, "dur":12445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517861347, "dur":1227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517862589, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517862806, "dur":19187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517882148, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517882564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517882584, "dur":16052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517898809, "dur":4030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517902853, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517902877, "dur":12782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702192517916019, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702192517916645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517917625, "dur":37548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702192517955320, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702192517955639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517955652, "dur":15869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702192517971772, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1702192517971986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517972002, "dur":20574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1702192517992902, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192517993140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192517993167, "dur":58893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192518052194, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192518052325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192518052336, "dur":28331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192518080751, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level20" }}
+,{ "pid":12345, "tid":3, "ts":1702192518080832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192518080839, "dur":57456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level20" }}
+,{ "pid":12345, "tid":3, "ts":1702192518138378, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level18" }}
+,{ "pid":12345, "tid":3, "ts":1702192518138456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192518138466, "dur":16216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level18" }}
+,{ "pid":12345, "tid":3, "ts":1702192518154795, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level15.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192518154901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192518154913, "dur":22764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level15.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192518177811, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level12.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192518178026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192518178040, "dur":7467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level12.resS" }}
+,{ "pid":12345, "tid":3, "ts":1702192518185682, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1702192518185883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702192518185900, "dur":18276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1702192518204318, "dur":312968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517669228, "dur":1175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517670404, "dur":11221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517681642, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1702192517682115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517688133, "dur":6298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1702192517694545, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1702192517694775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517694998, "dur":6275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1702192517701387, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517701622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517701633, "dur":80155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517781920, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517782051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517782067, "dur":9186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517791415, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517791567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517791584, "dur":8163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517799905, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517800056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517800073, "dur":10112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517810350, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517810679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517810701, "dur":12194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517823114, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517823476, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517823613, "dur":12716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517836506, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517836804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517836825, "dur":10102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517847072, "dur":3424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517850509, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517850533, "dur":13392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517864100, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517864450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517864475, "dur":18463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517883137, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517883505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517883525, "dur":25364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702192517909485, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702192517910151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517910292, "dur":18032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702192517928531, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702192517928730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517928749, "dur":34832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702192517963757, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702192517963923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517963941, "dur":17227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702192517981433, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192517981791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517981811, "dur":17499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192517999504, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level9.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192517999689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192517999708, "dur":21826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level9.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192518021704, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1702192518021911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518021925, "dur":29797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1702192518051888, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1702192518052022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518052033, "dur":27633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1702192518079787, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level21.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192518079901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518079910, "dur":58273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level21.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192518138304, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level18.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192518138426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518138440, "dur":16286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level18.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192518154893, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level15" }}
+,{ "pid":12345, "tid":4, "ts":1702192518156628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518156646, "dur":11106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level15" }}
+,{ "pid":12345, "tid":4, "ts":1702192518167915, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1702192518168074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518168091, "dur":10643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1702192518178890, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level10.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192518179046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518179060, "dur":11739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level10.resS" }}
+,{ "pid":12345, "tid":4, "ts":1702192518190925, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1702192518191053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702192518191065, "dur":32284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1702192518223477, "dur":293885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517669345, "dur":1077, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517670422, "dur":11279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517681702, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1702192517681986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517687162, "dur":5671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1702192517693003, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1702192517693439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517693883, "dur":5200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1702192517699449, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517699852, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517700858, "dur":12623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517713660, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517713820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517714013, "dur":10624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517724750, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517725001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517725016, "dur":16318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517741455, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517741573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517741589, "dur":10017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517751739, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517751956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517751973, "dur":23521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517775640, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517775926, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517775946, "dur":11682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517787780, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517788031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517788050, "dur":8143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517796333, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517796572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517796591, "dur":12200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517808939, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517809207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517809223, "dur":8994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517818408, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517818952, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517818975, "dur":10488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517829679, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517830356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517830379, "dur":8822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517839370, "dur":4439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517843823, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517843847, "dur":9956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517853944, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517854117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517854140, "dur":22926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517877244, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517877591, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517877639, "dur":10104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517887882, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517888271, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517888296, "dur":21119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702192517909681, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517909886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517909903, "dur":11082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517921173, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517921391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517921411, "dur":33717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517955297, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517955462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517955475, "dur":15726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517971523, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517971765, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517971790, "dur":16045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702192517988026, "dur":6540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702192517994613, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192517994641, "dur":26904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702192518021705, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level7.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702192518021890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192518021909, "dur":29792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level7.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702192518051863, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702192518052012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192518052027, "dur":27582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702192518079787, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level21" }}
+,{ "pid":12345, "tid":5, "ts":1702192518079901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192518079910, "dur":50397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level21" }}
+,{ "pid":12345, "tid":5, "ts":1702192518130417, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level19" }}
+,{ "pid":12345, "tid":5, "ts":1702192518136422, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192518136441, "dur":22945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level19" }}
+,{ "pid":12345, "tid":5, "ts":1702192518159552, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level14" }}
+,{ "pid":12345, "tid":5, "ts":1702192518159715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192518159729, "dur":19013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level14" }}
+,{ "pid":12345, "tid":5, "ts":1702192518178915, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level10" }}
+,{ "pid":12345, "tid":5, "ts":1702192518179077, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702192518179199, "dur":24321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level10" }}
+,{ "pid":12345, "tid":5, "ts":1702192518203705, "dur":313575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517669434, "dur":1008, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517670443, "dur":11228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517681686, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1702192517681888, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517684400, "dur":7691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1702192517692211, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1702192517692635, "dur":46, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517694672, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1702192517698710, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1702192517699048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517699066, "dur":4789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1702192517703988, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1702192517704277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517705939, "dur":39220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1702192517745345, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517745544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517745842, "dur":12735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517758867, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517759068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517759181, "dur":18184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517777495, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517777878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517777899, "dur":10706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517788750, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517788894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517788912, "dur":8845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517797928, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517798098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517798115, "dur":12171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517810469, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517810801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517810816, "dur":10159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517821138, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517821582, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517821606, "dur":11621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517833401, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517833722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517833849, "dur":12125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517846140, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517846316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517846336, "dur":12828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517859738, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517860517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517860541, "dur":22695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517883408, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517883755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517883772, "dur":11605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517895558, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517895839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517895862, "dur":12804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702192517908902, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517909597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517909616, "dur":20990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517930798, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517930998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517931014, "dur":33996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517965235, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517965682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517965701, "dur":14572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517980479, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517980768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517980786, "dur":17213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517998225, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192517998435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192517998457, "dur":53859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192518052437, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1702192518052598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192518052609, "dur":28072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1702192518080782, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702192518080864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192518080871, "dur":57698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702192518138684, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level17" }}
+,{ "pid":12345, "tid":6, "ts":1702192518138800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192518138807, "dur":20549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level17" }}
+,{ "pid":12345, "tid":6, "ts":1702192518159494, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level14.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702192518159616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192518159630, "dur":18669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level14.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702192518178436, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level11" }}
+,{ "pid":12345, "tid":6, "ts":1702192518178557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192518178662, "dur":11284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level11" }}
+,{ "pid":12345, "tid":6, "ts":1702192518190102, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192518190240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702192518190255, "dur":33081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702192518223474, "dur":293933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517669517, "dur":945, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517670462, "dur":11180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517681656, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702192517681930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517685273, "dur":6710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702192517692086, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702192517692308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517692322, "dur":9653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702192517702192, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1702192517702470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517702483, "dur":29981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1702192517732631, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517732941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517732959, "dur":8891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517741980, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517742239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517742259, "dur":16550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517758972, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517759259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517759275, "dur":22740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517782176, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517782348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517782365, "dur":10629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517793377, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517793715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517793731, "dur":11940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517805851, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517806110, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517806129, "dur":10128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517816406, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517816726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517816747, "dur":13836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517830738, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517831314, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517831364, "dur":19431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517851003, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517851361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517851385, "dur":30061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517881732, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517882048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517882068, "dur":18441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702192517900690, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517900894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517900911, "dur":8365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517909458, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517909627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517909640, "dur":19676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517930052, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517930455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517930472, "dur":33478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517964208, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517964428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517964447, "dur":15868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702192517980509, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1702192517980708, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192517980733, "dur":18888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1702192517999809, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level9" }}
+,{ "pid":12345, "tid":7, "ts":1702192518000134, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518000155, "dur":49594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level9" }}
+,{ "pid":12345, "tid":7, "ts":1702192518050062, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1702192518050198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518050210, "dur":19694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1702192518069995, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518070081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518079519, "dur":50079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518129706, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1702192518129792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518129801, "dur":8683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1702192518138596, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level17.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518138691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518138702, "dur":20929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level17.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518159747, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level13.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518159870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518159878, "dur":19547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level13.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518179585, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518179744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518179758, "dur":11233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702192518191125, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1702192518191652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702192518191664, "dur":32333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1702192518224136, "dur":293166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517669646, "dur":845, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517670492, "dur":11117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517681637, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1702192517682137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517690770, "dur":4534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1702192517695437, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1702192517695733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517695748, "dur":6899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1702192517702808, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData.exe" }}
+,{ "pid":12345, "tid":8, "ts":1702192517703023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517703037, "dur":10831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData.exe" }}
+,{ "pid":12345, "tid":8, "ts":1702192517714002, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517714631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517714652, "dur":10084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517724907, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517725224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517725242, "dur":16464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517741809, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517741918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517741929, "dur":9880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517751949, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517752212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517752231, "dur":16216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517768610, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517769006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517769029, "dur":14620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517783830, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517784140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517784168, "dur":10575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517794939, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517795254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517795369, "dur":10783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517806289, "dur":757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517807062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517807083, "dur":9426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517816674, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517816969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517816985, "dur":10804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517828018, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517828377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517828397, "dur":10551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517839088, "dur":3238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517842341, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517842364, "dur":9727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517852304, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517852618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517852634, "dur":23710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517876528, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517876840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517876860, "dur":8658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517885706, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517885949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517886065, "dur":13807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702192517900073, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1702192517900291, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517900573, "dur":7889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1702192517908697, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702192517908893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517908914, "dur":12120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702192517921174, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1702192517921390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517921411, "dur":33602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1702192517955194, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702192517955379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517955401, "dur":13969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702192517969553, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192517969784, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517969812, "dur":16699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192517986739, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1702192517987560, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192517987583, "dur":62134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1702192518049999, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level6.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192518050223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192518050237, "dur":29337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level6.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192518079814, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level20.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192518079953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192518079961, "dur":58721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level20.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192518138841, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level16" }}
+,{ "pid":12345, "tid":8, "ts":1702192518138974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192518138984, "dur":38927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level16" }}
+,{ "pid":12345, "tid":8, "ts":1702192518178067, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level12" }}
+,{ "pid":12345, "tid":8, "ts":1702192518178220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192518178233, "dur":8169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level12" }}
+,{ "pid":12345, "tid":8, "ts":1702192518186591, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192518186765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702192518186781, "dur":18401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neto-/Desktop/SOTD/ShadowOfTheData_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702192518205383, "dur":311927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702192518533032, "dur":5370, "ph":"X", "name": "ProfilerWriteOutput" }
+,
